@@ -16,5 +16,7 @@ public class MainActivity extends AppCompatActivity {
       buttonToClick.setOnClickListener(new View.OnClickListener() {
          startactivity(new Intent(MainActivity.this, NewActivity.class))
       });
-   }
+      //除左 Button, 以上 code 都可以用喺 View/TextView/ImageView 等等
+      //只需要改個變數類型就得 e.g. 由 Button button; 改做 ImageView button;
+   
 }
